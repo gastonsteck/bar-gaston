@@ -1,0 +1,13 @@
+h1{
+    color:rgb(51, 153, 68);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+ #id-clase1
+  h1{
+      color: red;
+      font-family: cursive;
+      font-size: 30px;
+      font-weight: bold;
+     } 
