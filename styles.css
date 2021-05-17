@@ -1,13 +1,21 @@
-h1{
-    color:rgb(51, 153, 68);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-}
- #id-clase1
-  h1{
-      color: red;
-      font-family: cursive;
-      font-size: 30px;
-      font-weight: bold;
-     } 
+nav{
+    background-color: black;
+   }
+ 
+#logo{
+      border: 1px solid red; 
+      border-radius: 130px;
+      margin: 20px;
+     }
+#secciones{
+    margin-left: 230px;
+    margin-top: -180px;
+           }
+.secciones2{
+           text-decoration: none;
+           
+          } 
+#busqueda {
+           margin-left: 230px;
+           margin-top: -180px;
+}    
