@@ -1,69 +1,176 @@
-nav{
-    background-color: black;
-   }
- 
-#logo{
-      border: 1px solid red; 
-      border-radius: 130px;
-      margin: 20px;
-     }
-#secciones{
-    margin-left: 230px;
-    margin-top: -180px;
-           }
-.secciones2{
-           text-decoration: none;
-           
-          } 
-#busqueda {
-           margin-left: 300px;
-           margin-top: -25px;
+
+body {
+        background-image: url("https://i.pinimg.com/236x/7b/c3/a3/7bc3a3b5e1fd74354b6a5b5317b940a5--black-wood-floor-dark-wood-floors.jpg");
+        background-color: #cccccc;
+        
+       }
+
+
+#div1{
+      display: flex;      
+      justify-content:space-around             
 }
 
-#hero {
-    box-shadow: 7px 7px 25px -1px;
-    background-image: url(https://cervecear.com/wp-content/uploads/2014/01/brindo.jpg);
-    background-position: center;
-    border: 1px solid black;
-    background-repeat: no-repeat;
-    height: 300px;
-       }
+.secciones1{
+             display: flex;
+             justify-content: space-between;
+             list-style: none;
+             justify-content: space-around;
+             margin: 30px;            
+             background-color: black;
+             color:grey;  
+             font-family: cursive; 
+             border-style: double;
+             border-width: 5px;   
+}
+#logopadre{
+  text-align: center;
+  border-radius: 600px
+          }
+#logohijo{
+            border: 2px solid black;
+            border-radius: 300px;
+            left: 150px;
+}
+#img{
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 5px;
+      width: 150px;
+    }      
+.secciones2{ 
+             display: flex;
+             justify-content: space-between;
+             list-style: none;
+             justify-content: space-around;
+             margin: 30px; 
+             background-color: black;
+             color: grey; 
+             font-family: cursive; 
+             border-style: double;
+             border-width: 5px;          
+}
+#imagen1{
+    width: 300px;
+    height: 200px;
+       
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    border-radius: 10px;   
+    border-style: double;
+}
+#heropadre{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+#hero{       
+        margin: 20px;
+}
+#texto1 {               
+         width: 80%;
+        color:#808080;
+        font-family: cursive; 
+        font-size: x-large;
+}
+#imagen2{
+        width: 300px;
+        height: 200px;
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        border-radius: 10px; 
+        border-style: double;
+}             
+#heropadre2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 #hero2{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-      }
-#button{
-         border-radius: 30px;
-         margin-left: 550px;
-         margin-top: 120px;
-         height: 40px;        
-         background-color: #fed049;
-       } 
-#promos{
-        background-color: rgb(72, 255, 0);
-       }        
-#promostitulo{
-                font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
-              }
-#quienessomos{
-               background-color: rgb(130, 238, 175);
-             }    
-#gaston{
-         border: 2px solid blue;
-        }
+       margin: 20px;
+}         
+#texto2{
+         margin: 50px;
+         color: grey;
+         font-family: cursive;
+         font-size: x-large;
+}
+ 
+#imagen3{
+         margin:20px;
+         width: 300px;
+         height: 150px;
+         image-rendering: auto;
+         image-rendering: crisp-edges;
+         image-rendering: pixelated;
+         border-radius: 10px; 
+         border-style: double;
+}
+
+#contenedor-hijo{
+                  display: flex;   
+                  justify-content: space-around; 
+                  text-align: center;
+                  border: 2px solid gray; 
+                  margin: 30px;                                                        
+}
+
+#opiniones{
+           display: flex;
+           justify-content: center;
+           font-family: cursive;
+           color: grey;
+}
+.opiniones-hijo{
+             display: flex;
+             justify-content: space-around;
+             border: 2px solid grey;
+             margin: 0px 30px;
+             font-family: cursive;
+             color: grey;
+}
+ h1{
+        font-family: cursive;
+        color: grey;
+        display: flex;
+           justify-content: center;
+ }
+
+#logopadre2{
+            position: relative;          
+}
+#logohijo2{        
+         border: 2px solid black;
+         border-radius: 300px; 
+         position: absolute;
+         margin:0px 1000px 90px;         
+}
+
+.button{
+        background-color:grey;
+        color: black;
+        border: 2px solid black; /* Green */
+}
 
 
-#gabriel{
-          border: 2px solid blue;
-        }
-
-#simon {
-         border: 2px solid blue;
-       }
+#formulario2{
+           display: flex;
+           justify-content: space-around;
+           padding: 50px;
+}
 
 #footer{
-       background-color: chocolate;
-       }          
+        display: flex;
+        justify-content: space-around;        
+        color: grey;
+        align-items: center;
+        height: 300px;         
+}
+#footer2 {
+        display: flex;        
+        justify-content: space-around;
+        
+}
+         
