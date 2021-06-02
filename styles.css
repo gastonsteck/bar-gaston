@@ -16,17 +16,41 @@ body {
              justify-content: space-between;
              list-style: none;
              justify-content: space-around;
-             margin: 30px;            
-             background-color: black;
+             margin: 30px;                        
              color:grey;  
              font-family: cursive; 
-             border-style: double;
-             border-width: 5px;   
+             
+}
+ul li a:hover{
+            opacity: 0.5;
+            font-size: 20px;
 }
 #logopadre{
   text-align: center;
   border-radius: 600px
           }
+ @media only screen and (max-width: 768px){
+         nav #div1{
+                 align-items: center;
+                 width: 100%; 
+                 margin: 0px 0px 0px 90px; 
+                                           
+         }
+         nav ul{
+              
+                 display: flex;
+                 flex-direction: column;
+                 
+         }
+         nav img{
+                border: 2px solid black;
+                border-radius: 300px;
+                width: 150px;  
+                height: 150px; 
+         }
+ }
+ 
+
 #logohijo{
             border: 2px solid black;
             border-radius: 300px;
@@ -44,11 +68,10 @@ body {
              list-style: none;
              justify-content: space-around;
              margin: 30px; 
-             background-color: black;
+             
              color: grey; 
              font-family: cursive; 
-             border-style: double;
-             border-width: 5px;          
+                     
 }
 #imagen1{
     width: 300px;
@@ -156,19 +179,18 @@ body {
            padding: 50px;
 }
 
-#footer{
-        display: flex;  
-        flex-direction: row;     
-        color: grey;   
-        height: 300px;
-        justify-content: space-around;       
+footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 }
-#footer img{        
+footer img{
         border: 2px solid black;
-        border-radius: 50%; 
-         
-}  
-#footer2{
-        
-         justify-content: flex-start;
+        border-radius: 300px;
+        width: 70px;  
+        height: 70px;  
+}
+footer p{
+         color: grey;
+         font-family: cursive;
 }
