@@ -195,55 +195,45 @@ ul li a:hover{
             position: relative;          
 }
 
-
-.button{
-        background-color:grey;
-        color: black;
-        border: 2px solid black; /* Green */
-}
-
-
 .section1 h1{
         color: white;
         display: flex;
       justify-content: center;        
 }
 .section1 p{
-        color: white;
+        
         display: flex;
       justify-content: center;
+      color: white;
 }
 .section2{
         display: flex;
+        align-items:flex-start;
         justify-content: space-around;
-}
-.section{
-        background-color: white;
+        
 }
 .section2 button{
-        background-color: #4CAF50;
-                               
-                              
-                text-decoration: none;
-                font-size: 20px;
-                        
-                cursor: pointer;
-                display: flex;
-                           
+        color: green;
+        
 }
-
+section{
+        padding: 50px;
+}
 footer{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-around;       
+        background-color: black;      
 }
+
 footer img{
         border: 2px solid black;
         border-radius: 300px;
-        width: 100px;  
-        height: 100px;  
+        width: 70px;  
+        height: 70px;  
 }
 footer p{
-         color: grey;
+         color: white;
          font-family: cursive;
+         
 }
